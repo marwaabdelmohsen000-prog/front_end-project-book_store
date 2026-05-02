@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>category</title>
+</head>
+
+
+<body>
+
+    <nav>
+        <div class="logo">BikBook</div>
+
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="category.html">Category</a></li>
+            <li><a href="favorite.html">Favorites</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button id="theme-switch">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
+                <path
+                    d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z">
+                </path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
+                <path
+                    d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z">
+                </path>
+            </svg>
+        </button>
+    </nav>
+    <main>
+        
+        <section class="first">
+            <div class="one"></div>
+        
+            <div class="search">
+                <label><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+                    <path
+                        d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                </svg></label>
+                <input type="search" id="searchBox" onkeyup="handleSearch()" placeholder="Search for category...">
+            </div>
+        
+            <div class="intro">
+                <h1 class="head">Choose the sky you wish to soar in</h1>
+                <p class="prag">
+                    Every journey begins with a choice a moment where you decide who you want to be and where you want to go.
+                    The sky isn't just a destination, it's a reflection of your dreams.
+                </p>
+            </div>
+            <div class="tir"></div>
+        </section>
+        <section class="categories second">
+            
+                 <a href="book_list.html?cat=self" class="card a1" target="_blank">
+                    <div class="a" id="selfdev">
+                        <h3>Self Development</h3>
+                        <p class="sel">Growth starts from within. Every page you read shapes your mindset, strengthens your discipline, and
+                            brings you closer
+                            to the person you want to become. Invest in yourself — it's the best decision you'll ever make.</p>
+
+                    </div>
+                </a>
+                <a href="book_list.html?cat=science" target="_blank" class="card a2">
+                    <div class="a" id="science">
+                        <h3>Science</h3>
+                        <p class="sc">Science opens doors to understanding the world in ways you never imagined. From the smallest atoms to the
+                            vast universe,
+                            every discovery begins with curiosity — and a single page.</p>
+                    </div>
+                </a>
+                <a href="book_list.html?cat=fiction" target="_blank" class="card a3">
+                    <div class="a" id="fiction">
+                        <h3>Fiction</h3>
+                        <p class="fic">Step into worlds beyond reality, where imagination knows no limits. Fiction lets you live a thousand
+                            lives, feel deeper
+                            emotions, and see life from different perspectives.</p>
+                    </div>
+                </a>
+                <a href="book_list.html?cat=medical" target="_blank" class="card a4">
+                    <div class="a" id="medical">
+                        <h3>Medical</h3>
+                        <p class="med">Medical knowledge isn't just for professionals — it's for anyone who values life and health.
+                            Understanding the human
+                            body empowers you to take better care of yourself and others.</p>
+                    </div>
+                </a>
+                <a href="book_list.html?cat=tech" target="_blank" class="card a5">
+                    <div class="a" id="tech">
+                        <h3>Tech</h3>
+                        <p class="tec">Technology is shaping the future, and staying informed keeps you ahead. Every concept you learn builds
+                            your power to
+                            create, innovate, and lead in a digital world.</p>
+                    </div>
+                </a>
+                <a href="book_list.html?cat=psychology" target="_blank" class="card a6">
+                    <div class="a" id="psychology">
+                        <h3>Psychology</h3>
+                        <p class="psg">Understanding the mind is understanding life itself. Psychology helps you decode emotions, improve
+                            relationships, and
+                            see the hidden patterns behind human behavior.</p>
+                    </div>
+                </a>
+                <a href="book_list.html?cat=business" target="_blank" class="card a7">
+                    <div class="a" id="business">
+                        <h3>Business</h3>
+                        <p class="bis">Success in business starts with knowledge. Learn how ideas turn into empires, and how smart decisions can
+                            change
+                            everything. Your future begins with what you learn today.</p>
+                    </div>
+                </a>
+                <a href="book_list.html?cat=history" target="_blank" class="card a8">
+                    <div class="a" id="history">
+                        <h3>History</h3>
+                        <p class="his">History isn't just about the past — it's a guide to the future. Every story holds lessons, and every
+                            lesson helps you
+                            understand the world and your place in it.</p>
+                    </div>
+                </a>
+                <div class="tr"></div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Library Project</p>
+    </footer>
+<script>
+    let darkmode = localStorage.getItem('darkmode')
+        const themeSwitch = document.getElementById('theme-switch')
+
+        const enableDarkmode = () => {
+            document.body.classList.add('darkmode')
+            localStorage.setItem('darkmode', 'active')
+        }
+
+        const disableDarkmode = () => {
+            document.body.classList.remove('darkmode')
+            localStorage.setItem('darkmode', null)
+        }
+
+        if (darkmode === "active") enableDarkmode()
+
+        themeSwitch.addEventListener("click", () => {
+            darkmode = localStorage.getItem('darkmode')
+            darkmode !== "active" ? enableDarkmode() : disableDarkmode()
+        })
+</script>
+<script>
+    function handleSearch() {
+        let input = document.getElementById("searchBox").value.toLowerCase();
+
+        let categories = {
+            "self development": "selfdev",
+            "science": "science",
+            "fiction": "fiction",
+            "medical": "medical",
+            "tech": "tech",
+            "psychology": "psychology",
+            "business": "business",
+            "history": "history"
+        };
+
+        for (let key in categories) {
+            if (input === key) {
+                document.getElementById(categories[key]).scrollIntoView({
+                    behavior: "smooth"
+                });
+            }
+        }
+    }
+</script>
+
+</body>
+
+</html>
+</html>
